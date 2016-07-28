@@ -26,5 +26,5 @@ COPY assets/outerwrapper /assets/
 VOLUME ["/etc/gitlab", "/etc/subgit", "/etc/cron.d", "/var/opt/gitlab", "/var/log/gitlab"]
 
 # Wrapper to handle signal, trigger runit and reconfigure GitLab
-CMD ["/assets/outerwrapper"]
+#CMD ["/assets/outerwrapper"]
 
