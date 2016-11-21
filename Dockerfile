@@ -5,7 +5,7 @@ MAINTAINER novaeye@qq.com
 ENV SUBGIT_VERSION 3.2.2
 
 # Install Java
-RUN mkdir -p /tmp/gitlab-zh && \
+RUN mkdir -p /tmp/gitlab.zh && \
     apt-get update && \
     apt-get install -y openjdk-7-jre-headless && \
     apt-get clean && \
