@@ -6,6 +6,7 @@ ENV SUBGIT_VERSION 3.2.2
 
 # Install Java
 RUN mkdir -p /tmp/gitlab.zh && \
+    mkdir -p /tmp/gitlab-zh && \
     apt-get update && \
     apt-get install -y openjdk-8-jre-headless && \
     apt-get clean && \
