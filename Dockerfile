@@ -1,8 +1,8 @@
-FROM beginor/gitlab-ce:9.3.7-ce.0
+FROM beginor/gitlab-ce:9.4.1-ce.0
 MAINTAINER novaeye@qq.com
 
 # Subgit version
-ENV SUBGIT_VERSION 3.2.4
+ENV SUBGIT_VERSION 3.2.5
 
 # Install Java
 RUN mkdir -p /tmp/gitlab.zh && \
