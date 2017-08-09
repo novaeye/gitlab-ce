@@ -1,4 +1,4 @@
-FROM beginor/gitlab-ce:9.4.1-ce.0
+FROM beginor/gitlab-ce:9.4.3-ce.0
 MAINTAINER novaeye@qq.com
 
 # Subgit version
