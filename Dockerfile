@@ -13,7 +13,7 @@ RUN mkdir -p /tmp/gitlab.zh && \
     rm -rf /var/lib/apt/lists/* /tmp/*
 
 # Download subgit from official website and install
-RUN curl -o subgit.deb -q https://subgit.com/download/subgit_${SUBGIT_VERSION}_all.deb && \
+RUN curl -o subgit.deb -q https://subgit.com/files/subgit_${SUBGIT_VERSION}_all.deb && \
     dpkg -i subgit.deb && \
     rm -fr subgit.deb
 
